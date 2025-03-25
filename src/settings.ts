@@ -1,5 +1,5 @@
 export const profile = {
-	fullName: 'Your Name',
+	fullName: 'Andrés Rodríguez',
 	title: '',
 	institute: '',
 	author_name: '', // Author name to be highlighted in the papers section
@@ -10,10 +10,10 @@ export const profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
+	email: 'andresrodriguezdiaz99@gmail.com',
 	linkedin: '',
-	x: 'https://www.x.com/',
-	github: '',
+	x: '',
+	github: 'https://github.com/scarnage999',
 	gitlab: '',
 	scholar: '',
 	inspire: '',
@@ -32,7 +32,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_title: 'Andrés Rodríguez',
+	default_description: 'Andrés Rodríguez CV.',
 	default_image: '/images/astro-academia.png',
 }
