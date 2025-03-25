@@ -8,12 +8,16 @@ const {fullName, title, institute, profilePicture} = Astro.props
 ---
 <div class='flex-1'>
   <h1 class='text-4xl font-bold mb-4'>
-    Welcome! I'm <span class='text-secondary'>{fullName}</span>
+    Hola soy <span class='text-primary'>{fullName}</span>
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
   <p class='text-lg mb-6'>
-    Brief impactful description of your research focus and academic mission.
-    Highlight your key contributions and areas of expertise.
+    Soy Ingeniero en informática especializado en el mundo del desarrollo web, 
+    amante de diseño graﬁco y la programación. Con experiencia en Front-End y Back-end. 
+    Me gusta estar en constante aprendizaje siempre buscando 
+    oportunidades que me permitan ser un mejor profesional. Creo que es funda-
+    mental en el  mundo de la tecnología estar en evolución constante, ya que cada 
+    día te sorprende con algo nuevo.  
   </p>
   <div class='flex gap-4'>
     <SocialIcons />
