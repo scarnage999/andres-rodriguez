@@ -10,8 +10,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    integrations: [react(), tailwind(), sitemap()],
     site: "https://scarnage999.github.io",
     base: "andres-rodriguez",
     output: "static",
+    integrations: [react(), tailwind(), sitemap()],
 });
